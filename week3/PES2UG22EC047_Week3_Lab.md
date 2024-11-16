@@ -39,4 +39,4 @@ for single cycle
 for 5 stage 
 
 ### Snapshot
-![2outof5.png]
+![[2outof5.png]]
