@@ -39,5 +39,4 @@ for single cycle
 for 5 stage 
 
 ### Snapshot
-![Screenshot of RIPES window](<program1.png>)
-
+![2outof5.png]
