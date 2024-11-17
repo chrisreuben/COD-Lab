@@ -1,61 +1,40 @@
 # Program 1: 
-### Statement: <Enter the program statement>
-
+### Statement: 
+Write an Assembly Program for addition of 2 64-bit numbers on RV32I
 ### Name of file:
-<Enter the name of the file>
+![[64bitadd.s.s]]
 
 ### Observation - Explanation
-- <Write 3 statements explaining what the assembly program is doing>
+
 
 ### Observation - Single Cycle
-- **Cycles:** <Enter the info from RIPES> 
-- **Frequency:** <Enter the info from RIPES>
-- **CPI:** <Enter the info from RIPES>
-- **IPC:** <Enter the info from RIPES>
-
+  ![[register_CPI.png]]
+  ![[reigster_CPI.png]]
 ### Observation - 5 Stage
-- **Cycles:** <Enter the info from RIPES> 
-- **Frequency:** <Enter the info from RIPES>
-- **CPI:** <Enter the info from RIPES>
-- **IPC:** <Enter the info from RIPES>
 
-### Memory Mapping
-- **<Register Number Used>:** <Value Stored>
-
-### Register Mapping
-- **<Register Number Used>:** <Value stored>
-
-### Snapshot
-![Screenshot of RIPES window](<program1.png>)
+![[5stage_memory.png]]
 
 
+![[5stage_registerCPI.png]]
 
-# Program 1: 
-### Statement: <Enter the program statement>
+# 
+### Statement: 
+Convert a 32-bit value from Little Endian to Big Endian format using RISC-V assembly
 
 ### Name of file:
-<Enter the name of the file>
 
+![[littletobigendian.s]]
 ### Observation - Explanation
-- <Write 3 statements explaining what the assembly program is doing>
 
-### Observation - Single Cycle
-- **Cycles:** <Enter the info from RIPES> 
-- **Frequency:** <Enter the info from RIPES>
-- **CPI:** <Enter the info from RIPES>
-- **IPC:** <Enter the info from RIPES>
 
-### Observation - 5 Stage
-- **Cycles:** <Enter the info from RIPES> 
-- **Frequency:** <Enter the info from RIPES>
-- **CPI:** <Enter the info from RIPES>
-- **IPC:** <Enter the info from RIPES>
+### Observation - 
+Single Cycle
+![[singlecycle_endianmemroy.png]]
 
-### Memory Mapping
-- **<Register Number Used>:** <Value Stored>
+![[singlecycle_register_endian.png]]
 
-### Register Mapping
-- **<Register Number Used>:** <Value stored>
 
-### Snapshot
-![Screenshot of RIPES window](<program1.png>)
+
+5 stage 
+![[registerCPI_endian.png]]
+![[5stagememory_endian.png]]

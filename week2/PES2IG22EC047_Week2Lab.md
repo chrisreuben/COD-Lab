@@ -1,90 +1,38 @@
-# Program 1: 
+# Program : 
 ### Statement:
- Write an Assembly Program for addition of N words
+ Write an Assembly Program for addition of halfwords
 
 ### Name of file:
-2halfwords.s.s
 
+![[2halfwords.s.s]]
 ### Observation - Explanation
-- <Write 3 statements explaining what the assembly program is doing>
 
-### Observation - Single Cycle
-- **Cycles:** 6 
-- **Frequency:** 852.51 mHz
-- **CPI:** 1
-- **IPC:** 1
 
-### Observation - 5 Stage
-- **Cycles:**11
-- **Frequency:**1.65 Hz
--**CPI:**1.83
-- **IPC:** 0.545
+### Observation - Single Cycle  
+![[add2halfwords.png]]
+![[memory_singlecycle_halfword.png]]
+### Observation - 5 stage 
 
-### Register  Mapping
-- **<Register Number Used>:** <Value Stored>
- for Single Cycle 
-  x10                        0x00000000
-  x11                        0x00000517
-  x12                        0x00001111
-  x13                        0x00000000
-for 5 stage 
-  x10                        0x10000000
-  x11                        0x00001234
-  x12                        0x00001111
-  x13                        0x00000000
-### Memory  Mapping
-- **<Register Number Used>:** <Value stored>
- for Single Cycle 
- 0x10000004                    0x00000000
- 0x10000000                    0x11111234
-for 5 stage 
-  0x10000004                  0x00002345
-  0x10000000                  0x11112345
-### Snapshot
-![Screenshot of RIPES window](<program1.png>)
+![[s5stage_halfwordregister.png]]
+
+![[5stage_memory_halfword.png]]
 
 
 ### Statement:
- Write an Assembly Program for addition of N bytes
+ Write an Assembly Program for given c code
 
 ### Name of file:
-add2bytes.s
-
+![[givenccode.s]]
 ### Observation - Explanation
-- <Write 3 statements explaining what the assembly program is doing>
-
-### Observation - Single Cycle
-- **Cycles:** 6 
-- **Frequency:**1.32Hz
-- **CPI:** 1
-- **IPC:**1
+-
 
 ### Observation - 5 Stage
-- **Cycles:** 11 
-- **Frequency:**552.18mHz
-- **CPI:** 1.83
-- **IPC:** 0.545
 
-### Memory Mapping
-- **<Register Number Used>:** <Value Stored>
- for Single cycle    
-0x10000004                  0x00000000
-   0x10000000                  0x00fefd01
- for 5 stage 
-0x10000004                   0x00000000
-0x10000000                   0x00fefd01
+![[5stage_register_ccode.png]]
 
-### Register Mapping
-- **<Register Number Used>:** <Value stored>
-   for Sincgle cycle
-   x10                         0x10000000
-   x11                         0x00000001
-   x12                         0xfffffffd
-   x13                         0xfffffffe
-for 5 Stage 
-   x10                         0x10000000
-   x11                         0x00000001
-   x12                         0xfffffffd
-   x13                         0xfffffffe
-### Snapshot
-![Screenshot of RIPES window](<program1.png>)
+![[5stage_memory_ccode.png]]
+### Observation - Single Cycle
+
+![[single_register_ccode.png]]
+
+![[single_memory_ccode.png]]

@@ -1,0 +1,207 @@
+{
+  "main": {
+    "id": "67503c0dcc7ad297",
+    "type": "split",
+    "children": [
+      {
+        "id": "a740ab753525e044",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e6dc74ac71b797c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "week5/observation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "observation"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b9d427b3929478fd",
+    "type": "split",
+    "children": [
+      {
+        "id": "6420631b14c15fff",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a62453653427b75e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "293b5a5869b70aad",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "65590ff9542cdb31",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f5b727ed43f98f8f",
+    "type": "split",
+    "children": [
+      {
+        "id": "ae5c60b722e41297",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1dc37e303eea8df2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "week5/observation.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for observation"
+            }
+          },
+          {
+            "id": "6cfdf1e0a8afdb6b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "week5/observation.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from observation"
+            }
+          },
+          {
+            "id": "52f9e5fec473e767",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "a8437a4f894bc782",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "week5/observation.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of observation"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "e6dc74ac71b797c9",
+  "lastOpenFiles": [
+    "week3/PES2UG22EC047_Week3_Lab.md",
+    "week2/PES2IG22EC047_Week2Lab.md",
+    "week1/PES2UG22EC047_Week1_Lab.md",
+    "week0/PES2UG22EC047_Week0Lab.md",
+    "week10/PES2UG22EC047_Week10_lab.md.md",
+    "week10/ss_controlunit.png",
+    "week10/Screenshot 2024-11-17 134352.png",
+    "week10/control_unit.sv",
+    "README.md",
+    "ss_decoder.png",
+    "week9/PES2UG22EC047_Week9_Lab.md.md",
+    "week9/ss_datamemory.png",
+    "week9/Screenshot 2024-11-17 133836.png",
+    "week9/ss_MEandWB.jpeg",
+    "week9/WhatsApp Image 2024-11-17 at 9.16.30 AM.jpeg",
+    "week8/PES2UG22EC047_Week8_Lab.md.md",
+    "week8/ss_EX.jpeg",
+    "week8/ss_ALU.png",
+    "week8/Screenshot 2024-11-17 131844.png",
+    "week7/PES2UG22EC047_Week7_Lab.md.md",
+    "week7/sign_ext.sv",
+    "week6/PES2UG22EC047_Week6_lab.md.md",
+    "week6/synchronousff.sv",
+    "week6/bubblesort.s",
+    "week5/observation.md",
+    "2outof5.s",
+    "week2/givenccode.s",
+    "week1/littletobigendian.s",
+    "week10/README.md",
+    "week4/README.md",
+    "week9/datamemory.sv",
+    "week9/ME_WB.sv",
+    "week7/registerfile.sv",
+    "week8/README.md",
+    "week1/README.md",
+    "week3/Week3_Lab.md",
+    "week2/Untitled.md",
+    "week2/README.md",
+    "week4/Untitled.md"
+  ]
+}

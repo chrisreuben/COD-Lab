@@ -3,4 +3,4 @@
 ## SRN
 - PES2UG22EC047
 ## Device
-- Ubuntu 
+- Ubuntu WSL 
